@@ -1,0 +1,35 @@
+.footer {
+	display: flex;
+	justify-content: space-around;
+	font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.count,
+.wraper {
+	display: flex;
+	align-items: center;
+}
+
+.button {
+	font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  border: none;
+	cursor: pointer;
+  text-decoration: none;
+  transition: opacity .5s;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.button:focus {
+	outline: none !important;
+}
+
+@media (max-width: 410px) {
+  .count {
+    font-size: 11px;
+  }
+}
